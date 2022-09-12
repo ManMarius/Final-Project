@@ -1,0 +1,77 @@
+@media screen and (min-width: 767px)  {
+  .home {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+  }
+  .home .img {
+    height: 250px;
+    width: 200px;
+    border-radius: 50%;.
+  }
+  .home .Bio {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 290px;
+    width:200px;
+    border: solid black 1px;
+  }
+  .home .Bio a {
+    font-size: 17px;
+    color: white;
+  }
+  .name h1 {
+    border-right: solid 3px rgba(0, 0, 0, 0.75);   
+    font-family: 'Source Code Pro', monospace;  
+    overflow: hidden;
+    white-space: nowrap; 
+    font-size: 30px;
+    color: white;
+  }
+  .name h1 {
+    animation: animated-text 4s steps(29,end) 1s 1 normal both,
+    animated-cursor 600ms steps(29,end) infinite;
+  }
+  @keyframes animated-text{
+    from{width: 0;}
+    to{width: 200px;}
+  }
+  @keyframes animated-cursor{
+    from{border-right-color: rgba(0, 0, 0, 0.75);}
+    to{border-right-color: transparent;}
+  }
+  .home .name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+  }
+  .waviy {
+    position: relative;
+    -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+    font-size: 22px;
+  }
+  .waviy h2 {
+    font-family: 'Source Code Pro', monospace;
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    animation: waviy 1s infinite;  
+  }
+  @keyframes waviy {
+    0%,40%,100% {
+      transform: translateY(0)
+    }
+    20% {
+      transform: translateY(-20px)
+    }
+  }
+  .home .Bio h1,h3 {
+    color: white;
+  }
+}

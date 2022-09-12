@@ -1,0 +1,75 @@
+@media screen and (min-width: 767px) {
+  #education {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .education-card1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: rgb(18, 15, 15);
+    width: 420px;
+    height: 170px;
+    border-radius: 25px;
+  }
+  .education-card1 img {
+    width: 90px;
+    height: 90px;
+  }
+  .education-card1 h2 {
+    font-size: 22px;
+    width: 380px;
+    color: rgb(224, 94, 0);
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-animation: typing1 2s steps(21, end),
+      blink-caret 0.5s step-end infinite alternate;
+  }
+  @-webkit-keyframes typing1 {
+    from {
+      width: 0;
+    }
+  }
+  @-webkit-keyframes blink-caret {
+    10% {
+      border-color: transparent;
+    }
+  }
+  .education-card2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: rgb(18, 15, 15);
+    width: 420px;
+    height: 170px;
+    border-radius: 25px;
+  }
+  .education-card2 img {
+    width: 90px;
+    height: 90px;
+  }
+  .education-card2 h2 {
+    font-size: 22px;
+    width: 380px;
+    color: rgb(224, 94, 0);
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-animation: typing2 2s steps(21, end),
+      blink-caret 0.5s step-end infinite alternate;
+  }
+  @-webkit-keyframes typing2 {
+    from {
+      width: 0;
+    }
+  }
+  @-webkit-keyframes blink-caret {
+    10% {
+      border-color: transparent;
+    }
+  }
+}

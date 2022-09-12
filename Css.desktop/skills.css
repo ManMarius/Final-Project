@@ -1,0 +1,145 @@
+@media screen and (min-width: 767px) {
+  .skill-test {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 500px;
+    color: white;
+    font-size: 20px;
+  }
+  .skill-test p {
+    color: white;
+    margin-right: 10px;
+  }
+  .html {
+    background: rgba(255, 255, 255, 0.1);
+    justify-content: flex-start;
+    border-radius: 10px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    height: 40px;
+    width: 600px;
+  }
+  .progress-html {
+    animation: loadHTML 3s normal forwards;
+    border-radius: 10px;
+    background: #fff;
+    height: 20px;
+    width: 0;
+  }
+  @keyframes loadHTML {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 69%;
+    }
+  }
+  .css {
+    background: rgba(255, 255, 255, 0.1);
+    justify-content: flex-start;
+    border-radius: 10px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    height: 40px;
+    width: 600px;
+    margin-right: 2px;
+  }
+  .progress-css {
+    animation: loadCSS 3s normal forwards;
+    border-radius: 10px;
+    background: #fff;
+    height: 20px;
+    width: 0;
+  }
+  @keyframes loadCSS {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 63%;
+    }
+  }
+  .js {
+    background: rgba(255, 255, 255, 0.1);
+    justify-content: flex-start;
+    border-radius: 10px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    height: 40px;
+    width: 600px;
+    margin-right: 2px;
+  }
+  .progress-js {
+    animation: loadJS 3s normal forwards;
+    border-radius: 10px;
+    background: #fff;
+    height: 20px;
+    width: 0;
+  }
+  @keyframes loadJS {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 50%;
+    }
+  }
+  .react {
+    background: rgba(255, 255, 255, 0.1);
+    justify-content: flex-start;
+    border-radius: 10px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    height: 40px;
+    width: 600px;
+    margin-right: 2px;
+  }
+  .progress-react {
+    animation: loadREACT 3s normal forwards;
+    border-radius: 10px;
+    background: #fff;
+    height: 20px;
+    width: 0;
+  }
+  @keyframes loadREACT {
+    25% {
+      width: 0;
+    }
+    100% {
+      width: 30%;
+    }
+  }
+  .bootstrap {
+    background: rgba(255, 255, 255, 0.1);
+    justify-content: flex-start;
+    border-radius: 10px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    height: 40px;
+    width: 600px;
+    margin-right: 2px;
+  }
+  .progress-bootstrap {
+    animation: loadBOOTSTRAP 3s normal forwards;
+    border-radius: 10px;
+    background: #fff;
+    height: 20px;
+    width: 0;
+  }
+  @keyframes loadBOOTSTRAP {
+    25% {
+      width: 0;
+    }
+    100% {
+      width: 35%;
+    }
+  }
+}

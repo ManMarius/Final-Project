@@ -1,0 +1,64 @@
+@media screen and (min-width: 767px) {
+  .projects {
+    max-width: 800px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  .projects h1 {
+    color: white;
+  }
+  .card {
+    position: relative;
+    margin: 10px;
+    width: 350px;
+    height: 350px;
+    background: rgb(19, 17, 17);
+    transform-style: preserve-3d;
+    transform: perspective(400px);
+    transition: 1s;
+    box-shadow: inset 1px 0 5px rgba(0, 0, 0, 0.5);
+  }
+  .card:hover {
+    z-index: 1;
+    transform: perspective(2000px) rotate(-10deg);
+    box-shadow: inset 20px 0 50px rgba(0, 0, 0, 0.5);
+  }
+  .card .img-container {
+    position: relative;
+    width: 98%;
+    height: 98%;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    transform-origin: left;
+    z-index: 1;
+    transition: 1s;
+  }
+  .card .img-container img {
+    height: 100%;
+    width: 100%;
+  }
+  .card:hover .img-container {
+    transform: rotateY(-135deg);
+  }
+  .card .card-details {
+    position: absolute;
+    left: 0;
+    top: 0;
+    box-sizing: border-box;
+    padding: 20px;
+    color: #000;
+  }
+  .card .card-details a {
+    text-transform: uppercase;
+    font-size: 32px;
+    color: #ed363a;
+  }
+  .card .card-details p {
+    color: white;
+    font-size: 22px;
+  }
+}
